@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit converter</title>
+</head>
+<link rel="stylesheet" href="unitconverter.css">
+<body>
+    <center>
+        <h1>Lenght Converter</h1>
+        <p class="p">Type a Feet to Convert Into Meter</p>
+        <label for="Feet">Feet</label>
+        <br>
+        <input type="number" placeholder="Enter Feet" id="f" oninput="LC(this.value)" onchange="LC(this.value)" />
+        <p class="meter">Meter</p>
+        <div id="Output"></div>
+        <button type="reset" onclick="window.location.reload()">Reset</button>
+    </center>
+
+    <script src="unitconverter.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+ * {
+    margin: 10px;
+    padding: 8px;
+ }
+
+ body{
+    background-color: rgb(255, 194, 61);
+    margin-top: 100px;
+ }
+
+ h1{
+    color: rgb(51, 255, 0);
+    font-size: 90px;
+    text-shadow: 2px 1px 2px rgb(0, 0, 0);
+ }
+
+ .p{
+   font-size: 22px;
+   color: beige;
+   text-shadow: 1px 1px 1px rgb(0, 0, 0);
+ }
+
+label{
+   font-size: 30px;
+   color: blue;
+}
+
+.meter{
+    width: max-content;
+    font-size: 30px;
+    color: blue;
+}
+
+input{
+   width: 300px;
+   height: 30px;
+   border-radius: 20px;
+   border: none;
+   box-shadow: 2px 3px 2px rgb(183, 183, 183);
+}
+
+ #Output{
+    /* border: 1px solid rgb(0, 136, 255); */
+    border-radius: 20px;
+    box-shadow: 2px 3px 2px rgb(183, 183, 183);
+    width: 300px;
+    height: 30px;
+    font-size: 30px;
+    color: blueviolet;
+    background-color: rgb(255, 255, 255);
+ }
+
+ button{
+   width: 80px;
+   height: 35px;
+   background-color: brown;
+   color: white;
+   border-radius: 8px 7px 6px ;
+ }
